@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment - NIEMALS committen, hier steht das Atlas-Passwort drin!
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

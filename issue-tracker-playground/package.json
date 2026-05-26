@@ -1,0 +1,18 @@
+{
+  "name": "issue-tracker-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lauffaehige Demo-Skripte zu den fuenf Uebungen aus Kapitel 6 (Pro MERN Stack 2)",
+  "scripts": {
+    "uebung1": "node 01-cursor.js",
+    "uebung2": "node 02-crud.js",
+    "uebung3": "node 03-indizes.js",
+    "uebung4": "node 04-connection.js",
+    "uebung5": "node 05-write.js",
+    "reset": "node _reset.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.0"
+  }
+}
